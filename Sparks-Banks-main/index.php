@@ -35,20 +35,15 @@
       <a class="mr-5 hover:text-white"  href="#services" >Services</a>
       <a class="mr-5 hover:text-white"  href="#contact1" >Contact</a>
     </nav>
-    <input type="search" id="search" name="name" class=" bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-purple-500 focus:bg-gray-900 focus:ring-2 focus:ring-purple-900 text-base outline-none text-gray-100 py-0.5 px-5 leading-8 transition-colors duration-200 ease-in-out">
-    <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-purple-700 rounded text-base mt-4 md:mt-0">Search
-      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-        <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
-    </button>
+    
   </div>
 </header>
   <!-- End Navbar -->
 
-
+<hr>
   <!-- Home -->
  
-  <section class="text-gray-400 bg-gray-900 body-font">
+  <section class="text-gray-800 bg-gray-500 body-font">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Basic Banking System
@@ -67,13 +62,13 @@
 
   <!-- About -->
  
-
+<hr>
   <section id="about" class="text-gray-400 bg-gray-900 body-font">
   <div class="flex flex-col text-center w-full mb-12">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">About Us</h1>
+      <h1 class="sm:text-4xl text-3xl font-medium title-font mb-1 text-white">About Us</h1>
   </div>
   <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="Sparks Bank" src="images/about1.jpg">
+    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="Sparks Bank" src="images/bank.png">
     <div class="text-center lg:w-2/3 w-full">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Sparks Bank</h1>
       <p class="leading-relaxed mb-8">It is a Basic Banking System for making transactions between users.
@@ -84,24 +79,24 @@
 
 </section>
   <!-- End About -->
-
+<hr>
   <!-- Services -->
  
 
-  <section id="services" class="text-gray-400 bg-gray-900 body-font">
+  <section id="services" class="text-gray-800 bg-gray-500 body-font">
   <div class="flex flex-col text-center w-full mb-12">
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Our Services</h1>
   </div>
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/3">
-        <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
+        <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden focus:outline-none hover:bg-pink-600">
           <img class="card-img-top mt-3 img" src="images/customer.png" alt="Responsive image ">
           <div class="p-6">
-            <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">Customers</h2>
+            <h2 class="tracking-widest text-xs title-font font-medium text-black-500 mb-1">Customers</h2>
             <h1 class="title-font text-lg font-medium text-white mb-3">View All Customers data</h1>
             <div class="flex items-center flex-wrap ">
-              <a href="transfermoney.php" class="text-purple-400 inline-flex items-center md:mb-2 lg:mb-0">View Customers
+              <a href="transfermoney.php" class="text-black-400 inline-flex items-center md:mb-2 lg:mb-0">View Customers
                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M5 12h14"></path>
                   <path d="M12 5l7 7-7 7"></path>
@@ -112,14 +107,14 @@
         </div>
       </div>
       <div class="p-4 md:w-1/3">
-        <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
+        <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden focus:outline-none hover:bg-pink-600">
           <img class="card-img-top mt-3 img" src="images/transactions.png" alt="Responsive image">
           <div class="p-6">
-            <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">Transactions</h2>
+            <h2 class="tracking-widest text-xs title-font font-medium text-black-500 mb-1">Transactions</h2>
             <h1 class="title-font text-lg font-medium text-white mb-3">View all past transations happened between different accounts</h1>
             
             <div class="flex items-center flex-wrap">
-              <a href="transactionhistory.php" class="text-purple-400 inline-flex items-center md:mb-2 lg:mb-0">View Transactions
+              <a href="transactionhistory.php" class="text-black-400 inline-flex items-center md:mb-2 lg:mb-0">View Transactions
                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M5 12h14"></path>
                   <path d="M12 5l7 7-7 7"></path>
@@ -130,14 +125,14 @@
         </div>
       </div>
       <div class="p-4 md:w-1/3">
-        <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
-          <img class="card-img-top mt-3 img" src="images/transfer.jpg" alt="Responsive image">
+        <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden focus:outline-none hover:bg-pink-600">
+          <img class="card-img-top mt-3 img" src="images/download.png" alt="Responsive image">
           <div class="p-6">
-            <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">Transfer Money</h2>
+            <h2 class="tracking-widest text-xs title-font font-medium text-black-500 mb-1">Transfer Money</h2>
             <h1 class="title-font text-lg font-medium text-white mb-3">Transfer Money between multiple accounts</h1>
             
             <div class="flex items-center flex-wrap ">
-              <a href="transfermoney.php" class="text-purple-400 inline-flex items-center md:mb-2 lg:mb-0">Transfer
+              <a href="transfermoney.php" class="text-black-400 inline-flex items-center md:mb-2 lg:mb-0">Transfer
                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M5 12h14"></path>
                   <path d="M12 5l7 7-7 7"></path>
@@ -153,7 +148,7 @@
   <!-- End Services -->
 
   <!-- Contact -->
-  
+<hr>
 
   <section id="contact1" class="text-gray-400 bg-gray-900 body-font relative">
   <div class="container px-5 py-24 mx-auto">
@@ -183,7 +178,7 @@
           </div>
         </div>
         <div class="p-2 w-full">
-          <button  name="save" class="flex mx-auto text-white bg-purple-500 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg">Submit</button>
+          <button  name="save" class="flex mx-auto text-white bg-Green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">Submit</button>
         </div>
         </form>
         
